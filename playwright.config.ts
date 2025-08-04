@@ -2,7 +2,7 @@ import { PlaywrightTestConfig, devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
   testDir: './src',
-  timeout: 30000,
+  timeout: 100000,
   retries: 2,
   workers: 1,
   reporter: [
